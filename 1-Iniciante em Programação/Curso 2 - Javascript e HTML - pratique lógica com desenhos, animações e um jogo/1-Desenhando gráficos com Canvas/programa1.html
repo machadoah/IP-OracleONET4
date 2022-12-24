@@ -1,0 +1,47 @@
+<canvas width="600" height="400"> <!-- largura x altura -->
+
+    <!-- Área de desenho do HTML -->
+</canvas>
+
+<script>
+
+    var tela = document.querySelector("canvas"); // se comunica com a tag canvas
+    var pincel = tela.getContext("2d"); // recebe o pincel 
+    
+    pincel.fillStyle = "lightgrey"; // coloca o cinza claro no pincel
+    pincel.fillRect(0, 0, 600, 400); // preencha um retangulo (posxi, posyi, posxf, posyf)
+
+    //criando a bandeira da itália
+
+        //pintando primeiro terço em verde da bandeira
+        pincel.fillStyle = "green";
+        pincel.fillRect(0, 0, 200, 400);
+
+        /*
+        // pintando o segundo terço em branco da bandeira
+        pincel.fillStyle = "white";
+        pincel.fillRect(200, 0, 400, 400);
+        */
+        
+        // pintando o ultimo terço em vermelho da bandeira
+        pincel.fillStyle = "red";
+        pincel.fillRect(400, 0, 600, 400);
+    
+    // criando um tringulo
+
+        pincel.fillStyle = "blue"; // cor do pincel
+        pincel.beginPath(); // iniciar a escrita do caminho
+        pincel.moveTo(300, 200); // posxi, posyi 
+        pincel.lineTo(200, 400); // fazer uma linha até :
+        pincel.lineTo(400, 400); // fazer uma linha até :
+        pincel.fill(); // pincel preencher
+
+    // criando uma bola
+
+        pincel.fillStyle = "black";
+        pincel.beginPath();
+        pincel.arc(300, 200, 40, 0, 2 * 3.14); // posxi (central), posyi (central), raio, angi, angf
+        pincel.fill(); 
+
+
+</script>
