@@ -1,3 +1,14 @@
+body {
+    background: #CCCCCC;
+}
+
 p {
     text-align: center;
+    
 }
+
+em strong {
+    /* todos os strong dentro de em */
+    color: red;
+}
+
