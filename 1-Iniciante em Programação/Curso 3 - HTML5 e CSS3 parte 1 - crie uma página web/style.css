@@ -1,14 +1,48 @@
-body {
-    background: #CCCCCC;
+
+
+#banner {
+
+    /*
+    
+    width (largura)
+    height (altura)
+
+    pading (espaçamento interno de um item, tomando de partida, seu espaçamento que já tem)
+    margin (espaçamento externo)
+    */
+    width: 100%;
+}
+
+.principal {
+    background: #CCC;
+}
+
+h1 {
+    text-align: center; 
 }
 
 p {
-    text-align: center;
-    
+    text-align: center; 
+}
+
+#missao {
+    font-size: 20px;
 }
 
 em strong {
     /* todos os strong dentro de em */
     color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFF;
+}
+
+h2 {
+    text-align: center;
 }
 
