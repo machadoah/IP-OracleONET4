@@ -22,11 +22,18 @@ nav li {
 }
 
 nav a {
-    text-transform: uppercase;
+    text-transform: uppercase; /* deixa tudo em maiusculo */
     color: #000;
     font-weight: bold;
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none; /* remove o sublinhado  */
+}
+
+nav a:hover {
+    /* hover é quando o mouse estiver sobre o link  */
+
+    text-decoration: underline;
+    color: #C78C19;
 }
 
 .produtos {
@@ -59,6 +66,20 @@ nav a {
 
 }
 
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    /* active é quando o mouse é clicado sobre o item  */
+    border-color: silver ;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+
+}
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
@@ -74,3 +95,14 @@ nav a {
     margin-top: 10px;
 }
 
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
