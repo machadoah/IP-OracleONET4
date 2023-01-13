@@ -1,9 +1,8 @@
 O curso é dividido nos seguintes modulos:
 
 01) Criando uma nova página
-02) Navegação entre páginas
-03) Posicionamento dos elementos
-04) A tag selection
-05) Lidando com bordas
-06) Pseudo-classes CSS
-07) Finalizando a página de produtos
+02) Começando um formulário
+03) Tipos de campos diferentes
+04) Melhorando a semântica
+05) CSS avançado
+06) Estrutura de tabelas
