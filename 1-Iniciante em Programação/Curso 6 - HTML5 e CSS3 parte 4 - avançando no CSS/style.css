@@ -1,0 +1,218 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBB;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top:100px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase; /* deixa tudo em maiusculo */
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /* remove o sublinhado  */
+}
+
+nav a:hover {
+    /* hover é quando o mouse estiver sobre o link  */
+
+    text-decoration: underline;
+    color: #C78C19;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: text-top;
+    /*background: #CCC;*/
+    margin: 0 1.5%;
+    padding:30px 20px;
+    box-sizing: border-box; /* borda dentro do já estipulado */
+
+    /* BORDA */
+
+    border: 2px solid black;
+
+    /*
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    */
+
+    border-radius: 12px;
+
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    /* active é quando o mouse é clicado sobre o item  */
+    border-color: silver ;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descrição {
+    font-size: 18px;
+}
+
+.produto-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* teste  */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p, form legend {
+    display: block; /* quebra de linha*/
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;  
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /* transição que dura 1 segundo na modificação do background */
+}
+
+.enviar:hover { /* Definições de quando o mouse estiver sobre a caixa */
+    background: darkorange;
+    transform: scale(1.1); /* Quando o mouse estiver sobre ele multiplica as medidas iniciais por 1.1, ou seja, aumenta 10% */
+    /* transform: rotate(70deg);  permite a rotação */ 
+}
+
+/*  TABELA  */
+
+table {
+    margin: 20px 0 40px;
+
+}
+
+thead {
+    background: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ; /* cima e baixo - laterais*/
+}
+
+/* PÁGINA INICIAL */
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em; /* em é a medida proporcial ao px*/
+    margin: 0 0 1em;
+    clear: left; /* limpar o float*/
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0; /* cima direira baixo esquerda */
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+
+
+
+
+
